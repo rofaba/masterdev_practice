@@ -29,6 +29,15 @@ nav ul {
   width: 500px;
 }
 
+.decoration-title {
+  width: 200px;
+  height: 50px;
+  background-color: #03faee;
+  position: relative;
+  top: 40px;
+  z-index: -1;
+}
+
 .aside-text {
   display: flex;
   flex-direction: column;
@@ -43,16 +52,6 @@ nav ul {
   justify-content: space-around;
 }
 
-footer {
-  display: flex;
-  padding: 80px 50px;
-  justify-content: space-between;
-  align-items: center;
-}
-footer img {
-  width: 50px;
-}
-
 li {
   padding: 10px;
   text-transform: capitalize;
@@ -63,18 +62,19 @@ span {
 }
 
 button {
-  text-transform: capitalize;
-  width: 100px;
-  height: 60px;
-  border-radius: 5px;
   background-color: #03faee;
+  border: dotted 0.5px black;
+  border-radius: 5px;
+  height: 60px;
   margin: 20px 0px;
+  width: 100px;
+  text-transform: capitalize;
 }
 
 .button-container {
-  width: 220px;
   display: flex;
   justify-content: space-between;
+  width: 220px;
 }
 
 h2 {
@@ -82,15 +82,6 @@ h2 {
   font-size: 55px;
   line-height: 70px;
   letter-spacing: 10px;
-}
-
-.decoration-title {
-  width: 200px;
-  height: 50px;
-  background-color: #03faee;
-  position: relative;
-  top: 40px;
-  z-index: -1;
 }
 
 .article-card {
@@ -103,40 +94,51 @@ h2 {
 .card-number {
   width: 40px;
   height: 40px;
-  padding: 5px 0px 20px 5px;
-  border: solid 1px black;
   border-radius: 50%;
   text-align: center;
   box-shadow: -6px 0px #92f7f2;
+  padding: 5px 0px 20px 5px;
+  border: solid 1px black;
 }
 
 .card-decoration {
-  width: 25px;
-  height: 15px;
   background-color: #03faee;
+  height: 15px;
   position: relative;
   top: 28px;
   left: -2px;
+  width: 25px;
   z-index: 0;
 }
 
 .card-title {
-  position: relative;
   text-transform: capitalize;
   font-weight: bold;
   padding: 15px 0px;
+  position: relative;
   z-index: 1;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 50px;
+}
+footer img {
+  width: 50px;
 }
 
 .social-media {
   display: flex;
-  width: 220px;
   justify-content: space-between;
+  width: 220px;
 }
 .social-media img {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  text-align: center;
   box-shadow: -6px 0px #92f7f2;
   padding: 10px;
-  border-radius: 50%;
 }/*# sourceMappingURL=styles.css.map */
