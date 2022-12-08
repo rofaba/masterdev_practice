@@ -1,0 +1,131 @@
+$font-family_1: Arial, Helvetica, sans-serif;
+$font-family_2: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+$background-color_1: #03faee;
+$background-color_2: #f8f8f8;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  width: 1024px;
+  font-family: $font-family_1;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+nav {
+  ul {
+    display: flex;
+  }
+}
+.main-principal {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 500px;
+  }
+}
+.aside-text {
+  display: flex;
+  flex-direction: column;
+  p {
+    padding: 10px 0px;
+    line-height: 30px;
+  }
+}
+.main-articles {
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  display: flex;
+  padding: 80px 50px;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 50px;
+  }
+}
+li {
+  padding: 10px;
+  text-transform: capitalize;
+}
+span {
+  text-transform: capitalize;
+}
+button {
+  text-transform: capitalize;
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: $background-color_1;
+  margin: 20px 0px;
+}
+.button-container {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  font-family: $font-family_2;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+}
+.decoration-title {
+  width: 200px;
+  height: 50px;
+  background-color: $background-color_1;
+  position: relative;
+  top: 40px;
+  z-index: -1;
+}
+.article-card {
+  width: 300px;
+  background-color: $background-color_2;
+  padding: 5px 20px 80px 20px;
+  z-index: -2;
+}
+.card-number {
+  width: 40px;
+  height: 40px;
+  padding: 5px 0px 20px 5px;
+  border: solid 1px black;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: -6px 0px #92f7f2;
+}
+.card-decoration {
+  width: 25px;
+  height: 15px;
+  background-color: $background-color_1;
+  position: relative;
+  top: 28px;
+  left: -2px;
+  z-index: 0;
+}
+.card-title {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 15px 0px;
+  z-index: 1;
+}
+.social-media {
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  img {
+    width: 40px;
+    height: 40px;
+    box-shadow: -6px 0px #92f7f2;
+    padding: 10px;
+    border-radius: 50%;
+  }
+}

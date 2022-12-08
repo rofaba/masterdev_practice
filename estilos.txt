@@ -1,0 +1,11 @@
+Colores
+bg-primary: #03faee; bg-secondary: #f8f8f8; color-primary: #8b8b8b;
+shadow: #92f7f2; 
+
+Body
+Familia: Arial, Helvetica, sans-serif;
+
+H2
+Familia: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; Tamaño: 55px;
+Alto de línea: 70px;
+Espaciado entre letras: 10px;
